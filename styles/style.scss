@@ -170,7 +170,7 @@ header{
 
 .container_services{
 
-    padding: 60px 130px;
+    padding: 90px 130px;
     text-align: center;
 
    
@@ -246,7 +246,7 @@ header{
 
 .container_immobile{
 
-    padding: 60px 130px;
+    padding: 90px 130px;
     background-color: var(--color-blue-background);
 
 
@@ -291,5 +291,44 @@ header{
     }
 
 
+
+}
+
+
+
+
+/*Estilo da seção de parceiros*/
+
+.container_partners{
+    background-color: #fff;
+    padding: 90px 130px;
+    text-align: center;
+    h2{
+        font-size: 30px;
+        margin-bottom: 60px;
+        position: relative;
+        color: var(--color-title);
+    }
+
+    h2::after{
+        position: absolute;
+        bottom:-90%;
+        left: 50%;
+        margin-left: -30px;
+        content:"";
+        display: block;
+        width: 60px;
+        height: 1.5px;
+        background-color: var(--color-orange);
+
+    }
+
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
 
 }
