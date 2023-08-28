@@ -1,6 +1,5 @@
-# Nome do Projeto
+## Singlular Institucional
 
-![Logo do Projeto](url-para-o-seu-logo.png)
 
 Descrição concisa do projeto.
 
@@ -33,7 +32,7 @@ Inclua um link para uma demonstração ao vivo do seu site, se aplicável.
 Instruções para clonar o repositório e configurar o ambiente de desenvolvimento.
 
 ```bash
-git clone https://github.com/seu-usuario/seu-projeto.git
+git clone https://github.com/Jrodolfosilva/SINGULAR
 cd seu-projeto
 
 
