@@ -12,7 +12,12 @@
     --color-orange:#f0906e;
     --color-blue-background:#294845;
     --color-title:#1d4945;
-    --color-text:
+   
+}
+
+button{
+    cursor: pointer;
+    border: none;
 }
 
 
@@ -64,10 +69,8 @@ header{
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
-        border: none;
         height: 30px;
         width: 100px;
-        cursor: pointer;
         display: none;
 
         @media (max-width:768px) {
@@ -84,3 +87,77 @@ header{
 }
 
 
+
+/*Estilos da secão inicial do site*/
+.container_main{
+    padding: 130px;
+}
+.container_main__content{
+    max-width: 38%;
+
+    h1{
+        font-size: 40px;
+        font-weight: 700;
+        color: var(--color-title);
+       
+    }
+
+    p{
+        font-size: 16px;
+        color: var(--color-title);
+        line-height: 25px;
+        margin: 30px 0px;
+
+    }
+
+    button{
+        padding: 8px 16px;
+        font-size: 17px;
+        font-weight: 700;
+        color: var(--color-title);
+        background-color: var(--color-green);
+    }
+}
+
+
+/*Estilos da secão atuação do site*/
+
+
+.container_atuacao{
+
+
+    background-color: var(--color-green);
+    text-align: center;
+    padding: 60px 130px;
+
+    h2{
+        margin-bottom: 60px;
+        position: relative;
+    }
+
+    h2::after{
+        position: absolute;
+        bottom:-90%;
+        left: 50%;
+        margin-left: -30px;
+        content:"";
+        display: block;
+        width: 60px;
+        height: 1.5px;
+        background-color: var(--color-orange);
+
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+
+        li{
+            width: 200px;
+
+            h3{
+                margin: 8px 0px;
+            }
+        }
+    }
+}
