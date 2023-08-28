@@ -1,0 +1,44 @@
+# Nome do Projeto
+
+![Logo do Projeto](url-para-o-seu-logo.png)
+
+Descrição concisa do projeto.
+
+## Tabela de Conteúdos
+
+- [Visão Geral](#visão-geral)
+- [Demo](#demo)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Instalação](#instalação)
+- [Licença](#licença)
+- [Contato](#contato)
+
+## Visão Geral
+
+Breve explicação sobre o projeto, seu propósito e principais recursos.
+
+## Demo
+
+Inclua um link para uma demonstração ao vivo do seu site, se aplicável.
+
+## Tecnologias Utilizadas
+
+- HTML
+- JavaScript
+- SCSS
+
+
+## Instalação
+
+Instruções para clonar o repositório e configurar o ambiente de desenvolvimento.
+
+```bash
+git clone https://github.com/seu-usuario/seu-projeto.git
+cd seu-projeto
+
+
+## Licença
+a
+
+
+## Contato
