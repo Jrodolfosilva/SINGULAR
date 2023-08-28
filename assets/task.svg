@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="23" height="23">
+	<title>Pasta 1</title>
+	<style>
+		.s0 { fill: #dceeb4 } 
+		.s1 { fill: none;stroke: #294845;stroke-miterlimit:100 } 
+	</style>
+	<g id="Pasta 1">
+		<path id="Retângulo 26" class="s0" d="m7 7h16v16h-16z"/>
+		<path id="Retângulo 27" class="s1" d="m0 0h16v16h-16z"/>
+	</g>
+</svg>
