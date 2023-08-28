@@ -132,9 +132,6 @@ header .toggle-menu {
   padding: 60px 130px;
   text-align: center;
 }
-.container_services .image-service {
-  margin-top: -50px;
-}
 .container_services h2 {
   font-size: 30px;
   margin-bottom: 60px;
@@ -155,26 +152,38 @@ header .toggle-menu {
   font-size: 16px;
   margin-bottom: 100px;
 }
-.container_services ul {
+.container_services .container_services__list {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
 }
-.container_services ul .services {
+.container_services .container_services__list .image-service {
+  margin-top: -50px;
+}
+.container_services .container_services__list .services {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  width: 33%;
+  width: 356px;
   border: 1px solid var(--color-orange);
   padding-left: 30px;
   padding-bottom: 30px;
+  margin-bottom: 60px;
 }
-.container_services ul .services ul {
+.container_services .container_services__list .services h3 {
+  color: var(--color-title);
+  text-align: left;
+  margin-right: 30px;
+  font-size: 20px;
+}
+.container_services .container_services__list .services ul {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  padding-right: 30px;
 }
-.container_services ul .services ul li {
-  background-color: aliceblue;
+.container_services .container_services__list .services ul li {
   display: flex;
   gap: 8px;
   text-align: left;

@@ -173,9 +173,7 @@ header{
     padding: 60px 130px;
     text-align: center;
 
-    .image-service{
-        margin-top: -50px;
-    }
+   
 
     h2{
         font-size: 30px;
@@ -201,27 +199,39 @@ header{
         margin-bottom: 100px;
         
     }
-    ul{
+    .container_services__list{
         display: flex;
         justify-content: space-between;
+        gap: 30px;
+        flex-wrap: wrap;
       
-
+        .image-service{
+            margin-top: -50px;
+        }
         .services{
             display: flex;
             flex-direction: column;
             gap: 30px;
-            width: 33%;
+            width: 356px;
             border: 1px solid var(--color-orange);
             padding-left: 30px;
             padding-bottom: 30px;
+            margin-bottom: 60px;
+
+                h3{
+                    color: var(--color-title);
+                    text-align: left;
+                    margin-right: 30px;
+                    font-size: 20px;
+                }
 
             	ul{
                     display: flex;
                     flex-direction: column;
                     gap:15px;
+                    padding-right: 30px;
 
                     li{
-                        background-color:aliceblue ;
                         display: flex;
                         gap: 8px;
                         text-align: left;
