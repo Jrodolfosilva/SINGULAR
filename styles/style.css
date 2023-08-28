@@ -7,11 +7,14 @@
   list-style: none;
   text-decoration: none;
   font-family: "Overlock", cursive;
-  color: #000;
   --color-green: #dceeb4;
   --color-orange:#f0906e;
   --color-blue-background:#294845;
   --color-title:#1d4945;
+}
+
+a {
+  color: var(--color-title);
 }
 
 button {
@@ -40,6 +43,8 @@ header ul li {
 header ul li a {
   display: block;
   padding: 10px 16px;
+  font-size: 16px;
+  font-weight: 700;
 }
 header ul li:hover {
   background-color: var(--color-green);
@@ -256,4 +261,70 @@ header .toggle-menu {
   justify-content: space-between;
   gap: 15px;
   flex-wrap: wrap;
+}
+
+/*Estilo seção formúlario de  contato*/
+.container_contact {
+  padding: 90px 130px;
+  text-align: center;
+  background-color: var(--color-green);
+  background-image: url("../assets/linhas.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+.container_contact h2 {
+  font-size: 30px;
+  margin-bottom: 60px;
+  position: relative;
+  color: var(--color-title);
+}
+.container_contact h2::after {
+  position: absolute;
+  bottom: -90%;
+  left: 50%;
+  margin-left: -30px;
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: var(--color-orange);
+}
+.container_contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.container_contact form input, .container_contact form textarea {
+  width: 400px;
+  padding: 16px;
+  border: none;
+}
+.container_contact form input[type=submit] {
+  padding: 16px;
+  font-size: 17px;
+  font-weight: 700;
+  background-color: var(--color-title);
+  color: var(--color-green);
+  cursor: pointer;
+}
+
+/*Estilo do footer*/
+footer {
+  padding: 90px 130px;
+  background-color: var(--color-blue-background);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  color: #fff;
+}
+footer section {
+  width: 320px;
+}
+footer section h3 {
+  margin-bottom: 15px;
+}
+footer section a {
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
