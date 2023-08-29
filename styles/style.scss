@@ -95,7 +95,16 @@ header{
 
 /*Estilos da secão inicial do site*/
 .container_main{
-    padding: 130px;
+    padding:0px 130px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img{
+        width: 640px;
+    }
+    
 }
 .container_main__content{
     max-width: 38%;
@@ -156,7 +165,7 @@ header{
 
     ul{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
 
         li{
             width: 200px;

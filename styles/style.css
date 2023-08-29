@@ -72,7 +72,13 @@ header .toggle-menu {
 
 /*Estilos da secão inicial do site*/
 .container_main {
-  padding: 130px;
+  padding: 0px 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container_main img {
+  width: 640px;
 }
 
 .container_main__content {
@@ -121,7 +127,7 @@ header .toggle-menu {
 }
 .container_atuacao ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .container_atuacao ul li {
   width: 200px;
