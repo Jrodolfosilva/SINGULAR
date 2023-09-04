@@ -80,6 +80,15 @@ header .toggle-menu {
 .container_main img {
   width: 640px;
 }
+@media (max-width: 768px) {
+  .container_main {
+    padding: 30px;
+    flex-wrap: wrap-reverse;
+  }
+  .container_main img {
+    width: 260px;
+  }
+}
 
 .container_main__content {
   max-width: 38%;
@@ -101,6 +110,15 @@ header .toggle-menu {
   font-weight: 700;
   color: var(--color-title);
   background-color: var(--color-green);
+}
+@media (max-width: 768px) {
+  .container_main__content {
+    max-width: none;
+    width: 100vw;
+  }
+  .container_main__content h1 {
+    font-size: 20px;
+  }
 }
 
 /*Estilos da secão atuação do site*/
@@ -137,6 +155,18 @@ header .toggle-menu {
 }
 .container_atuacao ul li p {
   font-size: 16px;
+}
+@media (max-width: 768px) {
+  .container_atuacao h2 {
+    font-size: 20px;
+  }
+  .container_atuacao ul {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .container_atuacao ul li > img {
+    width: 42px;
+  }
 }
 
 .container_services {
@@ -199,6 +229,21 @@ header .toggle-menu {
   gap: 8px;
   text-align: left;
 }
+@media (max-width: 768px) {
+  .container_services {
+    padding: 30px;
+  }
+  .container_services h2 {
+    font-size: 20px;
+  }
+  .container_services .image-service {
+    margin-top: -50px;
+    width: 230px;
+  }
+  .container_services .services {
+    width: 260px;
+  }
+}
 
 /*Estilo seção de imóveis em destaque com carrossel slick*/
 .container_immobile {
@@ -237,6 +282,15 @@ header .toggle-menu {
   background-color: var(--color-green);
   margin: 0 auto;
 }
+@media (max-width: 768px) {
+  .container_immobile {
+    padding: 30px;
+    overflow: hidden;
+  }
+  .container_immobile h2 {
+    font-size: 20px;
+  }
+}
 
 /*Estilo da seção de parceiros*/
 .container_partners {
@@ -267,6 +321,17 @@ header .toggle-menu {
   justify-content: space-between;
   gap: 15px;
   flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .container_partners {
+    padding: 30px;
+  }
+  .container_partners h2 {
+    font-size: 20px;
+  }
+  .container_partners ul {
+    flex-direction: column;
+  }
 }
 
 /*Estilo seção formúlario de  contato*/
@@ -314,6 +379,19 @@ header .toggle-menu {
   color: var(--color-green);
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .container_contact {
+    padding: 30px;
+  }
+  .container_contact h2 {
+    font-size: 20px;
+  }
+  .container_contact form > label > input, .container_contact textarea {
+    max-width: 260px;
+    padding: 16px;
+    border: none;
+  }
+}
 
 /*Estilo do footer*/
 footer {
@@ -333,4 +411,21 @@ footer section h3 {
 }
 footer section a {
   color: #fff;
+}
+@media (max-width: 768px) {
+  footer {
+    padding: 30px;
+  }
+}
+
+.card {
+  height: 400px;
+  width: 370px;
+  background-size: contain;
+  background-position: center;
+  display: inline-block;
+}
+
+.hover {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
