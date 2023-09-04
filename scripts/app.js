@@ -59,12 +59,15 @@ function createCards (result){
          const vagasElement = document.createElement('p')
          vagasElement.innerHTML=vagas;
         
+         const hoverElement =  document.createElement("div")
+         hoverElement.classList.add('hover')
         
          cardEnterprise.classList.add("card")/*Adicionar uma class nos cards */
-         cardEnterprise.appendChild(titleElement)
-         cardEnterprise.appendChild(enderecoElement)
-         cardEnterprise.appendChild(areaElement)
-         cardEnterprise.appendChild(vagasElement)
+         hoverElement.appendChild(titleElement)
+         hoverElement.appendChild(enderecoElement)
+         hoverElement.appendChild(areaElement)
+         hoverElement.appendChild(vagasElement)
+         cardEnterprise.appendChild(hoverElement)
          cardEnterprise.style.backgroundImage="url(http://singular-online-wp.local/wp-content/uploads/2023/09/unibanco.jpg)"
          cardEnterprise.style.backgroundSize='cover'
          cardEnterprise.style.backgroundRepeat='no-repeat'
