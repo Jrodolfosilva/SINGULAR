@@ -321,6 +321,7 @@ header{
 
     padding: 90px 130px;
     background-color: var(--color-blue-background);
+    
 
 
     h2{
@@ -344,11 +345,16 @@ header{
 
 
     .container_immobile__container_carrossel{
-        height: 400px;
-        width: 100%;
-        background-color: var(--color-green);
+        
         margin-top: 90px;
         margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        height: 420px;
+        overflow: hidden;
     }
 
 
@@ -375,7 +381,43 @@ header{
 
 }
 
+.card{
+    height: 400px;
+    width: 350px;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;    
 
+    div{
+        background-color: rgba(0, 0, 0, 0.632);
+        padding: 30px;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition:  0.5s;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        
+        
+        h1{
+            color: var(--color-green);
+        }
+
+        p{
+            color: #fff;
+        }
+        &:hover{
+            opacity: 1;
+        }
+
+
+       
+    }
+   
+}
 
 
 /*Estilo da seção de parceiros*/
@@ -543,13 +585,4 @@ footer{
 
 
 
-.card{
-    height: 400px;
-    width: 370px;
-    background-size: contain;
-    background-position: center;
-    display:inline-block;
-}
-.hover{
-    display: none;
-}
+
