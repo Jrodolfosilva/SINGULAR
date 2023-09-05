@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Overlock", cursive;
+  --color-green: #dceeb4;
+  --color-orange:#f0906e;
+  --color-blue-background:#294845;
+  --color-title:#1d4945;
+}
+
+a {
+  color: var(--color-title);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 130px;
+}
+@media (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+}
+header ul {
+  display: flex;
+  gap: 20px;
+}
+header ul li {
+  transition: background 0.3s;
+}
+header ul li a {
+  display: block;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: 700;
+}
+header ul li:hover {
+  background-color: var(--color-green);
+}
+header .toggle-menu {
+  background-color: transparent;
+  background-image: url("../assets/menu-toggle.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30px;
+  width: 100px;
+  display: none;
+}
+@media (max-width: 768px) {
+  header .toggle-menu {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    padding: 30px;
+  }
+}
+
+.container_product {
+  background-color: red;
+}/*# sourceMappingURL=styleEmp.css.map */
