@@ -446,13 +446,7 @@ header{
 
     }
 
-    ul{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 15px;
-        flex-wrap: wrap;
-    }
+  
 
     @media (max-width:768px) {
     
@@ -593,3 +587,13 @@ footer{
 
 
 
+.slick-list{
+    overflow: hidden!important;
+}
+
+div.slick-list.draggable{
+    display: none!important;
+}
+.slick-next .slick-arrow{
+    display: none!important;
+}
