@@ -347,13 +347,6 @@ header .toggle-menu {
   height: 1.5px;
   background-color: var(--color-orange);
 }
-.container_partners ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 15px;
-  flex-wrap: wrap;
-}
 @media (max-width: 768px) {
   .container_partners {
     padding: 30px;
@@ -448,4 +441,8 @@ footer section a {
   footer {
     padding: 30px;
   }
+}
+
+.container_partners .slick-prev, .container_partners .slick-prev:before, .container_partners .slick-next, .container_partners .slick-arrow {
+  display: none !important;
 }/*# sourceMappingURL=style.css.map */

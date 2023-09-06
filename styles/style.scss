@@ -584,16 +584,12 @@ footer{
 
 
 
+.container_partners{
 
+    .slick-prev,.slick-prev:before,.slick-next,.slick-arrow{
 
-
-.slick-list{
-    overflow: hidden!important;
+        display: none!important;
+    }
 }
 
-div.slick-list.draggable{
-    display: none!important;
-}
-.slick-next .slick-arrow{
-    display: none!important;
-}
+
