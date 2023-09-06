@@ -4,7 +4,7 @@
 Javascript para realização da requisição aos imóveis.
 
 */
-const baseurl = "http://singular-online-wp.local/wp-json/wp/v2/imovel"
+const baseurl = "https://spendstore.shop/wp-json/wp/v2/imovel"
 
 async function ReqImoveis(){
     let result;
@@ -68,7 +68,7 @@ function createCards (result){
          hoverElement.appendChild(areaElement)
          hoverElement.appendChild(vagasElement)
          cardEnterprise.appendChild(hoverElement)
-         cardEnterprise.style.backgroundImage="url(http://singular-online-wp.local/wp-content/uploads/2023/09/unibanco.jpg)"
+         cardEnterprise.style.backgroundImage="url(https://spendstore.shop/wp-content/uploads/2023/09/unibanco.jpg)"
          cardEnterprise.style.backgroundSize='cover'
          cardEnterprise.style.backgroundRepeat='no-repeat'
          containerCard.appendChild(cardEnterprise)/*Adicionar os cards na div container */
