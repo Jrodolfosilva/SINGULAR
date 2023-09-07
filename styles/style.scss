@@ -426,6 +426,7 @@ header{
     background-color: #fff;
     padding: 90px 130px;
     text-align: center;
+
     h2{
         font-size: 30px;
         margin-bottom: 60px;
@@ -446,6 +447,13 @@ header{
 
     }
 
+    
+
+    ul{
+        display: flex ;
+        align-items: center;
+
+     }
   
 
     @media (max-width:768px) {
@@ -456,11 +464,6 @@ header{
             font-size: 20px;
         }
 
-
-        ul{
-            flex-direction: column;
-
-        }
     
     }
 
