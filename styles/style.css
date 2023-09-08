@@ -313,7 +313,7 @@ header .toggle-menu {
   background-position: center;
   cursor: pointer;
 }
-.card div {
+.card a {
   background-color: rgba(0, 0, 0, 0.632);
   padding: 30px;
   height: 100%;
@@ -325,13 +325,13 @@ header .toggle-menu {
   align-items: flex-start;
   justify-content: flex-end;
 }
-.card div h1 {
+.card a h1 {
   color: var(--color-green);
 }
-.card div p {
+.card a p {
   color: #fff;
 }
-.card div:hover {
+.card a:hover {
   opacity: 1;
 }
 

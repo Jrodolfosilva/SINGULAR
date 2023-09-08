@@ -43,7 +43,7 @@ async function createCards(result) {
             const areaElement = document.createElement('p');
             areaElement.innerHTML = `${area} | ${vagas == 0 || vagas == 1 ? `${vagas} Vaga` : `${vagas} Vagas`}`;
 
-            const hoverElement = document.createElement("div");
+            const hoverElement = document.createElement("a");
             hoverElement.classList.add('hover');
 
             cardEnterprise.classList.add("card"); /*Adicionar uma class nos cards */
@@ -62,6 +62,7 @@ async function createCards(result) {
             hoverElement.appendChild(enderecoElement);
             hoverElement.appendChild(areaElement);
 
+            hoverElement.setAttribute('href', `/empreendimento/?cod=${imovel.id}`)
             cardEnterprise.appendChild(hoverElement);
             containerCard.appendChild(cardEnterprise); /*Adicionar os cards na div container */
         })
