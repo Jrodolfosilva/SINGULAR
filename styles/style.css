@@ -26,7 +26,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 130px;
+  padding: 20px 130px;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9;
 }
 @media (max-width: 768px) {
   header nav {
@@ -73,6 +78,7 @@ header .toggle-menu {
 /*Estilos da secão inicial do site*/
 .container_main {
   padding: 0px 130px;
+  padding-top: 100px;
   padding-right: 0;
   display: flex;
   align-items: center;
