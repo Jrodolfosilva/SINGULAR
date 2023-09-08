@@ -73,12 +73,15 @@ header .toggle-menu {
 /*Estilos da secão inicial do site*/
 .container_main {
   padding: 0px 130px;
+  padding-right: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow: hidden;
 }
 .container_main img {
-  width: 640px;
+  width: 800px;
+  margin-top: -100px;
 }
 @media (max-width: 768px) {
   .container_main {
@@ -87,6 +90,7 @@ header .toggle-menu {
   }
   .container_main img {
     width: 260px;
+    margin-top: 0;
   }
 }
 
@@ -105,7 +109,7 @@ header .toggle-menu {
   margin: 30px 0px;
 }
 .container_main__content button {
-  padding: 8px 16px;
+  padding: 14px 24px;
   font-size: 17px;
   font-weight: 700;
   color: var(--color-title);
