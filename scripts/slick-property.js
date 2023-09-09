@@ -2,47 +2,38 @@ $(document).ready(function() {
   // Função para inicializar o Slick Slider
   function iniciarSlickSlider() {
       $('.slider_property').slick({
-          dots: true,
-          infinite: false,
-          speed: 300,
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          autoplay: false,
-          speed: 3000,
-          autoplaySpeed: 3000,
-          
-          
-          responsive: [
-           
-              {
-                  breakpoint: 1600,
-                  settings: {
-                    dots: true,
-                    arrow:true,
-                      slidesToShow: 3,
-                      slidesToScroll: 3,
-                      infinite: true,
-                      autoplay: false,
-                      speed: 3000,
-                      autoplaySpeed: 3000,
-                  }
-              },
-              {
-                  breakpoint: 1200,
-                  settings: {
-                      slidesToShow: 2,
-                      slidesToScroll: 1
-                  }
-              },
-              {
-                  breakpoint: 320,
-                  settings: {
-                    centerMode:true,
-                    infinite:false,
-                      slidesToShow: 1,
-                      slidesToScroll: 1
-                  }
+        dots: true,
+        infinite: false,
+        speed: 500,
+        autoplay: true,
+        
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [
+            {
+              breakpoint: 1025,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: true
               }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
           ]
       });
   }

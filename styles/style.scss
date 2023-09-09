@@ -334,7 +334,9 @@ header{
     padding: 90px 130px;
     background-color: var(--color-blue-background);
     
-
+@media (max-width:768px) {
+    padding: 30px;
+}
 
     h2{
         font-size: 30px;
@@ -368,15 +370,10 @@ header{
        
     }
 
-@media (max-width:768px) {
-    
-    padding: 30px;
-    overflow: hidden;
-    h2{
-        font-size: 20px;
+    .slick-track{
+        display: flex;
     }
 
-}
 
 
 
@@ -384,13 +381,15 @@ header{
 
 .card{
     display: block;
+    min-height: 430px;
     height: 400px;
-    width: 350px;
-    max-width: 350px;
+    min-width: 400px;
+    width: 400px;
+    margin: 0 10px;
     background-size: contain;
     background-position: center;
     cursor: pointer; 
-    margin-left: 28px;
+    
 
     a{
         background-color: rgba(0, 0, 0, 0.632);
@@ -416,24 +415,28 @@ header{
         &:hover{
             opacity: 1;
         }
-
+@media (max-width:768px) {
+    opacity: 1;
+}
 
        
     }
 
-    /***trambique**/
-    @media (max-width:375px) {
-        min-width: 30%;
-        margin: 0px 10px;
+    @media (max-width:768px) {
 
-        .slick-track{
-            width: 500px!important;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        width: auto;
+        min-width: 260px;
+    
+    
+    
         }
-    }
-   
+
+        .slick-slide{
+
+            float:center!important;
+            
+            }
+
 }
 
 
@@ -612,18 +615,6 @@ footer{
     }
 }
 
-@media (max-width:768px) {
-    
-    .slick-track{
-        
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    
-        }
-       
-        
 
-}
 
 
