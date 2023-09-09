@@ -159,9 +159,9 @@
                 
             </ul>
         </section>
-        <section class="container_immobile">
-            <h2 class="container_immobile__title">Imóveis em Destaque</h2>
-            <div id="immobileList" class="container_immobile__container_carrossel">
+        <section class="container_property">
+            <h2 class="container_property__title">Imóveis em Destaque</h2>
+            <div id="propertyList" class="container_property__container_carrossel">
 
             </div>
             <button name="botao-ver-todos-os-imoveis">
@@ -248,47 +248,7 @@ investidor e parceiro em empreendimentos residenciais.
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function(){
-      $('.slider').slick({
-        dots: false,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 4,
-  slidesToScroll: 4,
-  centerMode:true,
-  autoplay:true,
-  speed:3000,
-  autoplaySpeed:3000,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: false
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    
-  ]
-      });
-    });
-  </script>
+    <script src="./scripts/slick-partners.js"></script>
     <script src="./scripts/app.js"></script>
 </body>
 </html>

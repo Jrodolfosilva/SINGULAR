@@ -257,17 +257,17 @@ header .toggle-menu {
 }
 
 /*Estilo seção de imóveis em destaque com carrossel slick*/
-.container_immobile {
+.container_property {
   padding: 90px 130px;
   background-color: var(--color-blue-background);
 }
-.container_immobile h2 {
+.container_property h2 {
   font-size: 30px;
   margin-bottom: 60px;
   position: relative;
   color: #fff;
 }
-.container_immobile h2::after {
+.container_property h2::after {
   position: absolute;
   bottom: -90%;
   left: 0%;
@@ -277,7 +277,7 @@ header .toggle-menu {
   height: 1.5px;
   background-color: var(--color-orange);
 }
-.container_immobile .container_immobile__container_carrossel {
+.container_property .container_property__container_carrossel {
   margin-top: 90px;
   margin-bottom: 30px;
   display: flex;
@@ -287,7 +287,7 @@ header .toggle-menu {
   height: 420px;
   overflow: hidden;
 }
-.container_immobile button {
+.container_property button {
   display: block;
   padding: 8px 16px;
   font-size: 17px;
@@ -297,11 +297,11 @@ header .toggle-menu {
   margin: 0 auto;
 }
 @media (max-width: 768px) {
-  .container_immobile {
+  .container_property {
     padding: 30px;
     overflow: hidden;
   }
-  .container_immobile h2 {
+  .container_property h2 {
     font-size: 20px;
   }
 }
