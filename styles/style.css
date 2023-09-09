@@ -299,12 +299,13 @@ header .toggle-menu {
 .card {
   display: block;
   height: 400px;
-  min-width: 350px;
+  width: 350px;
   max-width: 350px;
   background-size: contain;
   background-position: center;
   cursor: pointer;
   margin-left: 28px;
+  /***trambique**/
 }
 .card a {
   background-color: rgba(0, 0, 0, 0.632);
@@ -326,6 +327,18 @@ header .toggle-menu {
 }
 .card a:hover {
   opacity: 1;
+}
+@media (max-width: 375px) {
+  .card {
+    min-width: 30%;
+    margin: 0px 10px;
+  }
+  .card .slick-track {
+    width: 500px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /*Estilo da seção de parceiros*/
@@ -450,4 +463,12 @@ footer section a {
 
 .container_partners .slick-prev, .container_partners .slick-prev:before, .container_partners .slick-next, .container_partners .slick-arrow {
   display: none !important;
+}
+
+@media (max-width: 768px) {
+  .slick-track {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */

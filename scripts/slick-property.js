@@ -3,35 +3,42 @@ $(document).ready(function() {
   function iniciarSlickSlider() {
       $('.slider_property').slick({
           dots: true,
-
-          lazyLoad: 'ondemand',
           infinite: false,
           speed: 300,
           slidesToShow: 3,
           slidesToScroll: 1,
-          autoplay: true,
+          autoplay: false,
           speed: 3000,
           autoplaySpeed: 3000,
+          
+          
           responsive: [
+           
               {
-                  breakpoint: 1024,
+                  breakpoint: 1600,
                   settings: {
-                      slidesToShow: 2,
-                      slidesToScroll: 1,
+                    dots: true,
+                    arrow:true,
+                      slidesToShow: 3,
+                      slidesToScroll: 3,
                       infinite: true,
-                      dots: true
+                      autoplay: false,
+                      speed: 3000,
+                      autoplaySpeed: 3000,
                   }
               },
               {
-                  breakpoint: 600,
+                  breakpoint: 1200,
                   settings: {
                       slidesToShow: 2,
                       slidesToScroll: 1
                   }
               },
               {
-                  breakpoint: 480,
+                  breakpoint: 320,
                   settings: {
+                    centerMode:true,
+                    infinite:false,
                       slidesToShow: 1,
                       slidesToScroll: 1
                   }

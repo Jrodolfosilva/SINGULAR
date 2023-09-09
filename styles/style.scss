@@ -356,13 +356,6 @@ header{
     }
 
 
-   ul{
-        
-  
-    
-   
-    }
-
 
     .more{
         display: block;
@@ -385,12 +378,14 @@ header{
 
 }
 
+
+
 }
 
 .card{
     display: block;
     height: 400px;
-    min-width: 350px;
+    width: 350px;
     max-width: 350px;
     background-size: contain;
     background-position: center;
@@ -424,6 +419,19 @@ header{
 
 
        
+    }
+
+    /***trambique**/
+    @media (max-width:375px) {
+        min-width: 30%;
+        margin: 0px 10px;
+
+        .slick-track{
+            width: 500px!important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     }
    
 }
@@ -602,6 +610,20 @@ footer{
 
         display: none!important;
     }
+}
+
+@media (max-width:768px) {
+    
+    .slick-track{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        }
+       
+        
+
 }
 
 
