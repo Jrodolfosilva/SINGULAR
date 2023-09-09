@@ -20,7 +20,7 @@ ReqImoveis();
 Aqui criaremos os cards/elementos-html de forma dinâmica com js
 */
 async function createCards(result) {
-    const containerCard = document.querySelector(".container_property__container_carrossel"); /*Div onde ficará todos meus imóveis */
+    const containerCard = document.querySelector("#slider_property"); /*Div onde ficará todos meus imóveis */
 
     await Promise.all(
         result.map(async (imovel) => {
