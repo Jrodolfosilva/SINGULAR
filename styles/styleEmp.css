@@ -70,9 +70,14 @@ header .toggle-menu {
 }
 
 .container_product {
-  padding: 90px 130px;
+  padding: 130px;
   display: flex;
   align-items: flex-start;
+}
+@media (max-width: 768px) {
+  .container_product {
+    flex-wrap: wrap;
+  }
 }
 .container_product h2 {
   font-size: 30px;
@@ -92,6 +97,9 @@ header .toggle-menu {
 .container_product .container_product__content {
   width: 70vw;
   margin-right: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 .container_product .container_product__contact {
   width: 40vw;
