@@ -184,12 +184,18 @@ header .toggle-menu {
   font-size: 16px;
 }
 @media (max-width: 768px) {
+  .container_atuacao {
+    padding: 60px 30px;
+  }
   .container_atuacao h2 {
     font-size: 20px;
   }
   .container_atuacao ul {
     flex-wrap: wrap;
     gap: 30px;
+  }
+  .container_atuacao ul li {
+    width: auto;
   }
   .container_atuacao ul li > img {
     width: 42px;
@@ -462,6 +468,9 @@ footer {
   align-items: flex-start;
   flex-wrap: wrap;
   color: #fff;
+}
+footer img {
+  width: 100px;
 }
 footer section {
   width: 320px;

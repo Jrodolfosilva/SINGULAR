@@ -242,7 +242,7 @@ header{
     }
 
     @media (max-width:768px) {
-       
+       padding:60px 30px;
  
          h2{
              font-size: 20px;
@@ -252,6 +252,9 @@ header{
             flex-wrap: wrap;
             gap: 30px;
 
+            li{
+                width: auto;
+            }
             li>img{
                 width: 42px;
             }
@@ -608,6 +611,10 @@ footer{
     align-items: flex-start;
     flex-wrap: wrap;
     color: #fff;
+
+    img{
+        width: 100px;
+    }
 
     section{
         width: 320px;
