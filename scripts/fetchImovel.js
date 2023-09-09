@@ -17,13 +17,29 @@ if (codValue !== null) {
 
 
 async function details(codigo){
+    
+   try{
 
     const imovel = await fetch(`https://spendstore.shop/wp-json/wp/v2/imovel/${codigo}`)
-    .then((resp)=>resp.json())
-    .catch((error)=>console.log(error));
-
-console.log(imovel)
-    
+    const details = await  imovel.json()
+    AdddetailsProperty(details)
+   }
+   catch(error){
+    console.log(error)
+   }
 
 
 }
+
+
+async function AdddetailsProperty(details){
+
+const title =  details.title;
+const address =  details.endereco;
+const description = details.descricao;
+const codigo = codValue;
+
+
+
+}
+

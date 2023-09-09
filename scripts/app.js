@@ -62,7 +62,7 @@ async function createCards(result) {
             hoverElement.appendChild(enderecoElement);
             hoverElement.appendChild(areaElement);
 
-            hoverElement.setAttribute('href', `/empreendimento/?cod=${imovel.id}`)
+            hoverElement.setAttribute('href', `/SINGULAR/empreendimento/?cod=${imovel.id}`)
             cardEnterprise.appendChild(hoverElement);
             containerCard.appendChild(cardEnterprise); /*Adicionar os cards na div container */
         })
