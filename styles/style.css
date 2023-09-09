@@ -103,6 +103,7 @@ header .toggle-menu {
 
 .container_main__content {
   max-width: 38%;
+  margin-right: 50px;
 }
 .container_main__content h1 {
   font-size: 40px;
@@ -299,9 +300,9 @@ header .toggle-menu {
   display: block;
   min-height: 430px;
   height: 400px;
-  min-width: 400px;
+  min-width: 376px;
   width: 400px;
-  margin: 0 10px;
+  margin: 0 5px;
   background-size: contain;
   background-position: center;
   cursor: pointer;
