@@ -277,12 +277,6 @@ header .toggle-menu {
   height: 1.5px;
   background-color: var(--color-orange);
 }
-.container_property ul {
-  display: flex;
-  align-items: center;
-  overflow-y: hidden;
-  max-height: 400px;
-}
 .container_property .more {
   display: block;
   padding: 8px 16px;
@@ -310,7 +304,7 @@ header .toggle-menu {
   background-size: contain;
   background-position: center;
   cursor: pointer;
-  margin: 0 10px;
+  margin-left: 28px;
 }
 .card a {
   background-color: rgba(0, 0, 0, 0.632);

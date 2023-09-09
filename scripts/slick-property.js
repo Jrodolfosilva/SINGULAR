@@ -3,7 +3,6 @@ $(document).ready(function() {
   function iniciarSlickSlider() {
       $('.slider_property').slick({
           dots: true,
-          centerMode: true,
 
           lazyLoad: 'ondemand',
           infinite: false,

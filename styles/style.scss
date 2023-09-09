@@ -358,12 +358,9 @@ header{
 
    ul{
         
+  
     
-    display: flex;
-    
-    align-items: center;
-    overflow-y: hidden;
-    max-height: 400px;
+   
     }
 
 
@@ -397,8 +394,8 @@ header{
     max-width: 350px;
     background-size: contain;
     background-position: center;
-    cursor: pointer;   
-    margin:  0 10px; 
+    cursor: pointer; 
+    margin-left: 28px;
 
     a{
         background-color: rgba(0, 0, 0, 0.632);
