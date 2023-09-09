@@ -32,10 +32,25 @@ header {
   width: 100%;
   top: 0;
   z-index: 9;
+  position: relative;
 }
 @media (max-width: 768px) {
-  header nav {
+  header .menu {
     display: none;
+  }
+  header .menu ul {
+    position: absolute;
+    top: 90px;
+    width: 60vw;
+    padding: 16px;
+    border-radius: 4px;
+    right: 10px;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0px 1px 4px rgba(24, 26, 32, 0.07);
+  }
+  header .menu.ativo {
+    display: block;
   }
 }
 header ul {
@@ -463,6 +478,7 @@ footer section a {
   }
 }
 
+/*Estilos Slide*/
 .container_partners .slick-prev, .container_partners .slick-prev:before, .container_partners .slick-next, .container_partners .slick-arrow {
   display: none !important;
 }/*# sourceMappingURL=style.css.map */
