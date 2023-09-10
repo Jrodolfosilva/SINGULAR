@@ -1,0 +1,27 @@
+.container_property{
+margin-top: 50px;
+
+}
+
+.slider_property{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+
+
+        .card{
+           min-width: 250px!important;
+           width: 268px;
+            max-width: 370px;
+        }
+
+
+        @media (max-width:768px) {
+            .card{
+                width: 280px;
+            }
+        }
+    
+}
