@@ -39,19 +39,28 @@
 }
 .container_product .container_product__contact {
   width: 40vw;
-  padding-top: 80px;
+  padding-top: 115px;
   display: flex;
   flex-direction: column;
 }
 @media (max-width: 768px) {
   .container_product .container_product__contact {
     width: 100%;
+    padding-top: 30px;
   }
 }
 .container_product .container_product__contact_endereco, .container_product .container_product__contact_form {
   background-color: var(--color-green);
   margin-top: 10px;
   padding: 40px;
+}
+.container_product .container_product__contact_endereco h3, .container_product .container_product__contact_form h3 {
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .container_product .container_product__contact_endereco, .container_product .container_product__contact_form {
+    padding: 30px;
+  }
 }
 .container_product form {
   display: flex;
@@ -74,7 +83,7 @@
 }
 @media (max-width: 768px) {
   .container_product form label > input, .container_product form textarea {
-    max-width: 260px;
+    max-width: 250px;
     padding: 16px;
     border: none;
   }
