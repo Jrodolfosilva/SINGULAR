@@ -32,7 +32,6 @@ header {
   width: 100%;
   top: 0;
   z-index: 9;
-  position: relative;
 }
 @media (max-width: 768px) {
   header .menu {
@@ -40,9 +39,9 @@ header {
   }
   header .menu ul {
     position: absolute;
-    top: 90px;
+    top: 92px;
     width: 60vw;
-    padding: 16px;
+    padding: 30px 16px;
     border-radius: 4px;
     right: 10px;
     flex-direction: column;
@@ -69,8 +68,12 @@ header ul li a {
 header ul li:hover {
   background-color: var(--color-green);
 }
+header .toggle-menu:focus {
+  outline: none;
+}
 header .toggle-menu {
   background-color: transparent;
+  color: var();
   background-image: url("../assets/menu-toggle.svg");
   background-position: right;
   background-repeat: no-repeat;
@@ -78,11 +81,15 @@ header .toggle-menu {
   height: 30px;
   width: 100px;
   display: none;
+  outline: none;
 }
 @media (max-width: 768px) {
   header .toggle-menu {
     display: block;
   }
+}
+header .toggle-menu.bg-js {
+  background-image: url("../assets/close.svg");
 }
 @media (max-width: 768px) {
   header {
@@ -142,6 +149,7 @@ header .toggle-menu {
   .container_main__content {
     max-width: none;
     width: 100vw;
+    margin: 0px;
   }
   .container_main__content h1 {
     font-size: 20px;
@@ -185,7 +193,7 @@ header .toggle-menu {
 }
 @media (max-width: 768px) {
   .container_atuacao {
-    padding: 60px 30px;
+    padding: 90px 30px;
   }
   .container_atuacao h2 {
     font-size: 20px;
@@ -264,7 +272,7 @@ header .toggle-menu {
 }
 @media (max-width: 768px) {
   .container_services {
-    padding: 30px;
+    padding: 90px 30px;
   }
   .container_services h2 {
     font-size: 20px;
@@ -285,7 +293,7 @@ header .toggle-menu {
 }
 @media (max-width: 768px) {
   .container_property {
-    padding: 30px;
+    padding: 90px 30px;
   }
 }
 .container_property h2 {
@@ -447,7 +455,7 @@ header .toggle-menu {
 }
 @media (max-width: 768px) {
   .container_contact {
-    padding: 30px;
+    padding: 90px 30px;
   }
   .container_contact h2 {
     font-size: 20px;
@@ -483,7 +491,7 @@ footer section a {
 }
 @media (max-width: 768px) {
   footer {
-    padding: 30px;
+    padding: 90px 30px;
   }
 }
 

@@ -37,7 +37,6 @@ header{
     width: 100%;
     top: 0;
     z-index: 9;
-    position: relative;
 
    
         @media (max-width:768px) {
@@ -48,9 +47,9 @@ header{
                ul{
                 
                    position: absolute;
-                   top: 90px;
+                   top: 92px;
                    width: 60vw;
-                   padding: 16px;
+                   padding: 30px 16px;
                    border-radius: 4px;
                    right: 10px;
                    flex-direction: column;
@@ -99,9 +98,13 @@ header{
     }
 
    
-    
+    .toggle-menu:focus{
+        outline: none;
+
+    }
     .toggle-menu{
         background-color: transparent;
+        color: var();
         background-image: url("../assets/menu-toggle.svg");
         background-position: right;
         background-repeat: no-repeat;
@@ -109,10 +112,19 @@ header{
         height: 30px;
         width: 100px;
         display: none;
+        outline: none;
+        
 
+       
         @media (max-width:768px) {
             display: block;
         }
+
+    }
+
+    .toggle-menu.bg-js{
+        background-image: url("../assets/close.svg");
+       
 
     }
 
@@ -185,6 +197,7 @@ header{
     @media (max-width:768px) {
        max-width: none;
        width: 100vw;
+       margin: 0px;
 
         h1{
             font-size: 20px;
@@ -242,7 +255,7 @@ header{
     }
 
     @media (max-width:768px) {
-       padding:60px 30px;
+       padding:90px 30px;
  
          h2{
              font-size: 20px;
@@ -341,7 +354,7 @@ header{
 
 
     @media (max-width:768px) {
-        padding: 30px;
+        padding: 90px 30px;
 
         h2{
             font-size: 20px;
@@ -366,7 +379,7 @@ header{
     background-color: var(--color-blue-background);
     
 @media (max-width:768px) {
-    padding: 30px;
+    padding: 90px 30px;
 }
 
     h2{
@@ -582,7 +595,7 @@ header{
 
     @media (max-width:768px) {
     
-        padding: 30px;
+        padding:90px 30px;
 
         h2{
             font-size: 20px;
@@ -630,7 +643,7 @@ footer{
     }
 
     @media (max-width:768px) {
-        padding: 30px;
+        padding:90px 30px;
     }
 }
 
