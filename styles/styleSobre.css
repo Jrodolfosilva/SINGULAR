@@ -1,3 +1,53 @@
 .container_atuacao ul li {
   width: 300px;
+}
+
+.linha {
+  padding: 90px 130px;
+  text-align: center;
+}
+.linha h2 {
+  font-size: 30px;
+  margin-bottom: 60px;
+  position: relative;
+}
+.linha h2::after {
+  position: absolute;
+  bottom: -90%;
+  left: 50%;
+  margin-left: -30px;
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1.5px;
+  background-color: var(--color-orange);
+}
+.linha ul {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+.linha ul li {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-align: left;
+}
+.linha ul li strong {
+  color: var(--color-title);
+}
+@media (max-width: 768px) {
+  .linha {
+    padding: 90px 30px;
+  }
+  .linha ul li {
+    display: block;
+    text-align: center;
+  }
+  .linha ul li img {
+    width: 60px;
+  }
 }/*# sourceMappingURL=styleSobre.css.map */
