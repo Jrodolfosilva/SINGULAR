@@ -1,7 +1,7 @@
 /*
 Javascript para realização da requisição aos imóveis.
 */
-const baseurl = "https://spendstore.shop/wp-json/wp/v2/imovel";
+const baseurl = "https://eventosinfo.shop/wp-json/wp/v2/imovel";
 
 async function ReqImoveis() {
     let result;
@@ -24,7 +24,7 @@ async function createCards(result) {
 
     await Promise.all(
         result.map(async (imovel) => {
-            const imagem = await fetch(`https://spendstore.shop/wp-json/wp/v2/media?parent=${imovel.id}`)
+            const imagem = await fetch(`https://eventosinfo.shop/wp-json/wp/v2/media?parent=${imovel.id}`)
                 .then((resp) => resp.json())
                 .catch((err) => console.log(err));
 
