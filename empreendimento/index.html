@@ -29,16 +29,16 @@
                     <a href="../">Singular</a>
                 </li> 
                 <li>
-                    <a href="/sobre/">Sobre</a>
+                    <a href="./sobre/">Sobre</a>
                 </li>
                 <li>
-                    <a href="../#servicos">Serviços</a>
+                    <a href="SGN/#servicos">Serviços</a>
                 </li>
                 <li>
-                    <a href="../empreendimentos/">Imóveis</a>
+                    <a href="/SGN/empreendimentos/">Imóveis</a>
                 </li>
                 <li>
-                    <a href="../#contato">Contato</a>
+                    <a href="SGN/#contato">Contato</a>
                 </li>
             </ul>
         </nav>
@@ -72,12 +72,12 @@
                 </div>
                 <div class="container_product__contact_form">
                     <h3>Fale com a Singular</h3>
-                    <form action="">
+                    <form  id="myForm">
                         <label for="name">
-                            <input type="text" name="name" placeholder="Nome" required/>
+                            <input type="text" name="name" id="name" placeholder="Nome" required/>
                         </label>
                         <label for="email">
-                            <input type="text" name="email" placeholder="E-mail" required/>
+                            <input type="text" name="from_email" placeholder="E-mail" required/>
                         </label>
                         <label>
                             <textarea name="message" id="message" cols="20" rows="06" placeholder="Escreva sua mensagem aqui"></textarea>
@@ -85,6 +85,8 @@
                         <label for="submit">
                             <input type="submit" value="Enviar">
                         </label>
+                        <span class="status"></span>
+
 
                     </form>
                 </div>
@@ -179,7 +181,9 @@ investidor e parceiro em empreendimentos residenciais.
     <script src="../scripts/fetchImovel.js"></script>
 <script src="../scripts/slick-property.js" defer></script>
 <script src="../scripts/header-menu.js" defer></script>
-<script src="../scripts/app.js"></script>
+<script src="./scripts/sendForm.js"defer></script>
+
+<script src="../scripts/sendForm.js"></script>
     
     
     

@@ -1,5 +1,5 @@
 const url = new URL(window.location.href);
-
+const message = document.querySelector("#message")
 const params = new URLSearchParams(url.search);
 
 const codValue = params.get('cod');
@@ -59,7 +59,7 @@ async function AdddetailsProperty(details, imagemImovel) {
     codigo_property.innerHTML = `Código do imóvel: ${codValue}`;
     address_property2.innerHTML = address
     areaProperty.innerHTML = `${area} | ${vagas == 0 || vagas == 1 ? `${vagas} Vaga` : `${vagas} Vagas`}`;
-    map.setAttribute('src',`${mapGoogle}`)
-
+    map.setAttribute('src',`${mapGoogle}`);
+    message.value = `Olá, gostaria de mais informações sobre o empreendimento ${title}`;
 
 }
