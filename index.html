@@ -202,19 +202,20 @@
         <section id="contato" class="container_contact">
             <h2>Contato</h2>
 
-            <form action="">
+            <form id="myForm">
                 <label for="name">
-                    <input type="text" name="name" placeholder="Nome" required>
+                    <input type="text" name="name" id="name" placeholder="Nome" required>
                 </label>
                 <label for="email">
-                    <input type="email" name="email" placeholder="E-mail" required>
+                    <input type="email" name="from_email" placeholder="E-mail" required>
                 </label>
                 <label for="message">
-                    <textarea rows="8" cols="18" name="message" placeholder="Escreva aqui sua mensagem..."></textarea>
+                    <textarea rows="8" cols="18" name="message" id="message" placeholder="Escreva aqui sua mensagem..."></textarea>
                 </label>
                 <label for="submit">
                     <input type="submit" value="Enviar">
                 </label>
+                <span class="status"></span>
             </form>
         </section>
     </main>
@@ -258,6 +259,7 @@ investidor e parceiro em empreendimentos residenciais.
 
 <script src="./scripts/slick-property.js" defer></script>
 <script src="./scripts/header-menu.js" defer></script>
+<script src="./scripts/sendForm.js"defer></script>
 <script src="./scripts/app.js"></script>
 </body>
 </html>
