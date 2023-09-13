@@ -794,7 +794,7 @@ footer{
     .container_property, 
     .container_partners, 
     .container_contato,
-    .container_atuacao {
+    .container_atuacao, footer {
         padding: 90px 30px;
     }
 
@@ -812,4 +812,27 @@ footer{
     }
     
 
+}
+
+@media (max-width:377px) {
+    
+    .container_main{
+        padding:0px 30px;
+        gap: 50px;
+        margin-bottom: 90px;
+
+        img {
+            width: 430px;
+            margin-top: -12px;
+            }
+
+            .container_main__content{
+                button{
+                    margin-top: 30px;
+                }
+               
+            }
+        
+
+    }
 }

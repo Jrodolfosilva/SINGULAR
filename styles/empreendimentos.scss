@@ -56,3 +56,13 @@ margin-top: 50px;
         }
     }
 }
+
+@media (max-width:377px) {
+    .slider_property{
+        .card {
+            width: 100%;
+            min-width: 300px!important;
+           
+        }
+    }
+}

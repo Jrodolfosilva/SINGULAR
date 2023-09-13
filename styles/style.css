@@ -586,7 +586,7 @@ footer section a {
   .container_property,
   .container_partners,
   .container_contato,
-  .container_atuacao {
+  .container_atuacao, footer {
     padding: 90px 30px;
   }
   .container_services__list {
@@ -598,5 +598,19 @@ footer section a {
   }
   .container_services__list .services .image-service {
     width: 100%;
+  }
+}
+@media (max-width: 377px) {
+  .container_main {
+    padding: 0px 30px;
+    gap: 50px;
+    margin-bottom: 90px;
+  }
+  .container_main img {
+    width: 430px;
+    margin-top: -12px;
+  }
+  .container_main .container_main__content button {
+    margin-top: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
