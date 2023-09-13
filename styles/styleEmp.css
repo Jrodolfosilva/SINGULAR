@@ -105,4 +105,21 @@
   .container_product .container_product__contact .container_product__contact_form input, .container_product .container_product__contact .container_product__contact_form textarea {
     width: 250px;
   }
+}
+@media (max-width: 768px) {
+  .container_product {
+    padding: 90px 80px;
+  }
+  .container_product .container_product__content .image_property {
+    width: auto;
+  }
+  .container_product .container_product__contact {
+    width: 100vw;
+  }
+  .container_product .container_product__contact .container_product__contact_form label {
+    width: 100%;
+  }
+  .container_product .container_product__contact .container_product__contact_form label input, .container_product .container_product__contact .container_product__contact_form label textarea {
+    min-width: 100%;
+  }
 }/*# sourceMappingURL=styleEmp.css.map */

@@ -75,4 +75,9 @@
   .linha div > ul li img {
     width: 48px;
   }
+}
+@media (max-width: 768px) {
+  .linha div > ul li {
+    width: 180px;
+  }
 }/*# sourceMappingURL=styleSobre.css.map */

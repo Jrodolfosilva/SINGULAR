@@ -731,3 +731,42 @@ footer{
         }
     }
 }
+
+@media(max-width:768px){
+
+    .container_main{
+        padding:0px 90px;
+        gap: 50px;
+        margin-bottom: 90px;
+
+    }
+
+    
+    .container_main img {
+        width: 140%;
+        margin-top: -100px;
+    }
+    .container_contact{
+
+
+        form{
+
+            label>input,textarea{
+               
+                max-width: 300px;
+            }
+        }
+    }
+
+    footer{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap:30px;
+
+        .footer_contact,.footer_content,.footer_location{
+            width: auto;
+        }
+    }
+
+}

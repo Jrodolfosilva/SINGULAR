@@ -146,3 +146,30 @@
    
     
 }
+
+@media (max-width:768px) {
+ 
+    .container_product{
+        padding: 90px 80px;
+
+        .container_product__content{
+            .image_property{
+                width:auto;
+            }
+        }
+
+        .container_product__contact{
+            width: 100vw;
+            
+           .container_product__contact_form{
+          
+            
+            label{
+                width: 100%;
+                input,textarea{min-width: 100%;}
+            }
+           }
+        }
+}
+
+}
