@@ -28,6 +28,60 @@ button{
 }
 
 
+.slick-prev:before{
+    content: url("../assets/left.svg")!important;
+
+}
+.slick-next:before{
+    content: url("../assets/rigth.svg")!important;
+    
+}
+
+
+.slick-next {
+    right: -25px!important;
+    position: absolute!important;
+    top: -50px!important;
+    right: 10px!important;
+}
+
+.slick-prev {
+    left: -25px!important;
+    position: absolute!important;
+    top: -50px!important;
+    left: 93%!important;
+}
+
+@media(max-width:1024px){
+
+.slick-prev {
+    
+    top: -30px !important;
+    left: 89% !important;
+}
+.slick-next {
+    top: -30px!important;
+}
+}
+
+@media(max-width:768px){
+
+.slick-prev {
+    left: 70% !important;}
+}
+
+@media(max-width:350px){
+
+.slick-prev {
+    left: 75%!important;}
+}
+
+.container_property__container_carrossel{
+   
+    padding-top: 30px;
+}
+
+
 
 
 header{
