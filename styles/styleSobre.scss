@@ -123,3 +123,14 @@
         align-items: center;
     }
 }
+
+@media (max-width:377px) {
+
+
+    .contianer_main{
+        margin-bottom: 60px;
+    }
+    .linha h2 {
+        margin-bottom: 30px;
+    }
+}

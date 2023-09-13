@@ -177,6 +177,11 @@ header .toggle-menu.bg-js {
   height: 1.5px;
   background-color: var(--color-orange);
 }
+@media (max-width: 377px) {
+  .container_atuacao h2::after {
+    bottom: -50% !important;
+  }
+}
 .container_atuacao ul {
   display: flex;
   justify-content: space-around;
@@ -607,10 +612,13 @@ footer section a {
     margin-bottom: 90px;
   }
   .container_main img {
-    width: 430px;
-    margin-top: -12px;
+    width: 400px;
+    margin-top: -8px;
   }
   .container_main .container_main__content button {
     margin-top: 30px;
+  }
+  .container_contact form label > input, .container_contact form textarea {
+    max-width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

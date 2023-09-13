@@ -233,6 +233,10 @@ header{
         height: 1.5px;
         background-color: var(--color-orange);
 
+        @media (max-width:377px) {
+            bottom: -50%!important;
+        }
+
     }
 
     ul{
@@ -816,14 +820,15 @@ footer{
 
 @media (max-width:377px) {
     
+    
     .container_main{
         padding:0px 30px;
         gap: 50px;
         margin-bottom: 90px;
 
         img {
-            width: 430px;
-            margin-top: -12px;
+            width: 400px;
+            margin-top: -8px;
             }
 
             .container_main__content{
@@ -835,4 +840,16 @@ footer{
         
 
     }
+    .container_contact{
+
+
+        form{
+
+            label>input,textarea{
+               
+                max-width: 100%;
+            }
+        }
+    }
+
 }
