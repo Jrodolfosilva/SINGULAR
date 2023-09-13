@@ -50,4 +50,29 @@
   .linha ul li img {
     width: 60px;
   }
+}
+
+@media (max-width: 1024px) {
+  .container_main {
+    align-items: center;
+  }
+  .container_main img {
+    margin-bottom: -12px;
+  }
+  .container_atuacao ul > li {
+    width: 300px;
+    margin: 0px 20px;
+  }
+  .container_atuacao ul > li img {
+    max-width: 60px;
+  }
+  .linha {
+    padding: 90px 80px;
+  }
+  .linha div > ul li {
+    width: 250px;
+  }
+  .linha div > ul li img {
+    width: 48px;
+  }
 }/*# sourceMappingURL=styleSobre.css.map */

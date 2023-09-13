@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oportunidade</title>
     <meta name="description" content=""/>
+
+    <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.8/glider.css" integrity="sha512-xcz2kgNDovRs9/wYWii2XSBEDlpaTq99iewiGN3PR/pNnPaSDiw6wHpXU0kFyonevdVj/MkeesxMII8sgolFCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/styleEmp.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Overlock:wght@400;700&display=swap" rel="stylesheet">
@@ -15,7 +20,7 @@
 <body>
     <header>
         <a href="../">
-            <video src="../assets/logo.mp4" autoplay loop width="120"></video>
+            <img src="../assets/singular.gif"  width="120"/>
 
         </a>
         <nav class="menu">
@@ -95,6 +100,44 @@
 
             </div>
         </section>
+        <section class="container_property">
+            <h2 class="container_property__title">Imóveis em Destaque</h2>
+            <div  class="container_property__container_carrossel">          
+
+                <ul id="slider_property" class="slider_property">
+
+                </ul>
+
+            </div>
+            <button class="more" name="botao-ver-todos-os-imoveis">
+                <a href="../empreendimentos/">Ver todos</a>
+            </button>
+
+        </section>
+        <section class="container_partners">
+            <h2>Nossos parceiros</h2>
+            <ul class="slider">
+                <li>
+                    <img src="../assets/magikz.svg" alt="">
+                </li>
+                <li>
+                    <img src="../assets/cyrela.svg" alt="">
+                </li>
+                <li>
+                    <img src="../assets/santander.webp" alt="">
+                </li>
+                <li>
+                    <img src="../assets/luciano we.webp" alt="">
+                </li>
+                <li>
+                    <img src="../assets/sequoia.svg" alt="">
+                </li>
+                <li>
+                    <img src="../assets/stan.svg" alt="">
+                </li>
+                
+            </ul>
+        </section>
     </main>
     <footer>
         <section class="footer_content">
@@ -128,9 +171,17 @@ investidor e parceiro em empreendimentos residenciais.
             </p>
         </section>
     </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="../slick/slick.min.js"></script>
+    <script src="../scripts/slick-partners.js"></script>
+    
     <script src="../scripts/fetchImovel.js"></script>
-    <script src="../scripts/header-menu.js" defer></script>
-
+<script src="../scripts/slick-property.js" defer></script>
+<script src="../scripts/header-menu.js" defer></script>
+<script src="../scripts/app.js"></script>
+    
+    
     
 </body>
 </html>

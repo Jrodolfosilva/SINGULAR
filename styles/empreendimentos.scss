@@ -25,3 +25,23 @@ margin-top: 50px;
         }
     
 }
+
+
+
+
+@media (max-width:1024px) {
+    
+    .container_property{
+        background-color:#fff;
+
+        h2{
+            color: var(--color-title);
+        }
+    }
+    .slider_property{
+        justify-content: flex-start;
+       .card{
+        margin-top: 10px;
+       }
+    }
+}

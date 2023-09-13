@@ -90,4 +90,19 @@
 }
 .container_product .container_product__contact_map iframe {
   margin-top: 30px;
+}
+
+@media (max-width: 1024px) {
+  .container_product {
+    padding: 90px 80px;
+  }
+  .container_product .container_product__content img {
+    width: 450px;
+  }
+  .container_product .container_product__contact {
+    width: 30vw;
+  }
+  .container_product .container_product__contact .container_product__contact_form input, .container_product .container_product__contact .container_product__contact_form textarea {
+    width: 250px;
+  }
 }/*# sourceMappingURL=styleEmp.css.map */

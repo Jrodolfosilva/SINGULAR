@@ -108,3 +108,41 @@
         }
     }
 }
+
+
+
+
+
+
+
+@media (max-width:1024px) {
+    
+    .container_product{
+        padding: 90px 80px;
+
+        .container_product__content{
+            img{
+                width:450px;
+            }
+        }
+
+
+        .container_product__contact{
+            width: 30vw;
+
+
+
+           .container_product__contact_form{
+
+            input,textarea{width: 250px;}
+           }
+
+
+
+        }
+
+    }
+
+   
+    
+}

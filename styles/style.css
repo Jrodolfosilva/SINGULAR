@@ -13,6 +13,10 @@
   --color-title:#1d4945;
 }
 
+main {
+  overflow-y: hidden;
+}
+
 a {
   color: var(--color-title);
 }
@@ -441,6 +445,7 @@ header .toggle-menu.bg-js {
   gap: 30px;
 }
 .container_contact form input, .container_contact form textarea {
+  max-width: 400px;
   width: 400px;
   padding: 16px;
   border: none;
@@ -498,4 +503,48 @@ footer section a {
 /*Estilos Slide*/
 .container_partners .slick-prev, .container_partners .slick-prev:before, .container_partners .slick-next, .container_partners .slick-arrow {
   display: none !important;
+}
+
+@media (max-width: 1024px) {
+  header {
+    padding: 20px 80px;
+  }
+  .container_main {
+    padding-left: 90px;
+    padding-top: 90px;
+    margin-top: 50px;
+    align-items: flex-start;
+  }
+  .container_main img {
+    width: 600px;
+    margin-bottom: -7px;
+  }
+  .container_main .container_main__content {
+    min-width: 38%;
+  }
+  .container_main .container_main__content h1 {
+    font-size: 30px;
+  }
+  .container_main .container_main__content p {
+    margin: 10px 0px;
+  }
+  .container_services,
+  .container_property,
+  .container_partners,
+  .container_contato,
+  .container_atuacao {
+    padding: 90px 80px;
+  }
+  .container_services__list .services {
+    max-width: 260px;
+  }
+  footer {
+    padding: 90px 80px;
+  }
+  footer .footer_content {
+    width: 340px;
+  }
+  footer .footer_location, footer .footer_contact {
+    width: 130px;
+  }
 }/*# sourceMappingURL=style.css.map */

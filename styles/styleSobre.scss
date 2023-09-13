@@ -67,3 +67,43 @@
       }
     }
 }
+
+
+@media (max-width:1024px) {
+    
+
+    .container_main{
+        align-items: center;
+
+        img{
+            margin-bottom: -12px;
+        }
+    }
+   
+   
+
+    .container_atuacao{
+        ul> li{
+            width: 300px;
+            margin: 0px 20px;
+
+            img{
+                max-width: 60px;
+            }
+        }
+    }
+
+    .linha{
+        padding: 90px 80px;
+         div>ul{
+
+
+            li{
+                width: 250px;
+                img{
+                    width: 48px;
+                }
+             }
+         }
+    }
+}
