@@ -1,3 +1,7 @@
+.container_main img {
+  margin-bottom: -12px;
+}
+
 .container_atuacao ul li {
   width: 300px;
 }
