@@ -10,8 +10,13 @@
 }
 .slider_property .card {
   min-width: 250px !important;
-  width: 268px;
-  max-width: 370px;
+  width: 280px;
+  max-width: 400px;
+}
+@media (max-width: 1440px) {
+  .slider_property .card {
+    width: 250px;
+  }
 }
 @media (max-width: 768px) {
   .slider_property .card {

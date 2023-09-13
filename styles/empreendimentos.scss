@@ -13,8 +13,13 @@ margin-top: 50px;
 
         .card{
            min-width: 250px!important;
-           width: 268px;
-            max-width: 370px;
+           width: 280px;
+            max-width: 400px;
+
+            @media (max-width:1440px) {
+                width: 250px;
+            }
+           
         }
 
 
