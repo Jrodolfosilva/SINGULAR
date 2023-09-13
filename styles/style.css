@@ -152,8 +152,9 @@ header .toggle-menu.bg-js {
   overflow: hidden;
 }
 .container_main img {
-  width: 800px;
+  width: 900px;
   margin-top: -100px;
+  margin-right: -200px;
 }
 @media (max-width: 768px) {
   .container_main {
@@ -563,6 +564,7 @@ footer section a {
   .container_main img {
     width: 600px;
     margin-bottom: -7px;
+    margin-right: -100px;
   }
   .container_main .container_main__content {
     min-width: 38%;
@@ -604,7 +606,7 @@ footer section a {
   }
   .container_main img {
     width: 140%;
-    margin-top: -100px;
+    margin-top: -80px;
   }
   .container_contact form label > input, .container_contact form textarea {
     max-width: 300px;
