@@ -1,10 +1,4 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1830 1274" width="1830" height="1274">
-	<title>Pasta 1</title>
-	<style>
-		.s0 { fill: none;stroke: #1d4945;stroke-miterlimit:100 } 
-	</style>
-	<g id="Pasta 1">
-		<path id="Linha 2" class="s0" d="m1327.3 1272.4v-1270.6"/>
-		<path id="Linha 3" class="s0" d="m1828.3 1075.7l-1826.5-850.9"/>
-	</g>
+<svg width="839" height="1103" viewBox="0 0 839 1103" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="646.5" y1="1103" x2="646.5" y2="87" stroke="black"/>
+<line x1="838.646" y1="838.354" x2="0.646463" y2="0.35357" stroke="black"/>
 </svg>
