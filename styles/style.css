@@ -95,11 +95,6 @@ header .toggle-menu {
 header .toggle-menu.bg-js {
   background-image: url("../assets/close.svg");
 }
-@media (max-width: 768px) {
-  header {
-    padding: 30px;
-  }
-}
 
 /*Estilos da secão inicial do site*/
 .container_main {
@@ -549,6 +544,9 @@ footer section a {
   }
 }
 @media (max-width: 768px) {
+  header {
+    padding: 30px;
+  }
   .container_main {
     padding: 0px 90px;
     gap: 50px;
@@ -569,5 +567,36 @@ footer section a {
   }
   footer .footer_contact, footer .footer_content, footer .footer_location {
     width: auto;
+  }
+}
+@media (max-width: 430px) {
+  .container_main {
+    padding: 0px 30px;
+    gap: 50px;
+    margin-bottom: 90px;
+  }
+  .container_main img {
+    width: 480px;
+    margin-top: -20px;
+  }
+  .container_main .container_main__content button {
+    margin-top: 30px;
+  }
+  .container_services,
+  .container_property,
+  .container_partners,
+  .container_contato,
+  .container_atuacao {
+    padding: 90px 30px;
+  }
+  .container_services__list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container_services__list .services {
+    max-width: 100%;
+  }
+  .container_services__list .services .image-service {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

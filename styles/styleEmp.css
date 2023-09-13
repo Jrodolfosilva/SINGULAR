@@ -122,4 +122,9 @@
   .container_product .container_product__contact .container_product__contact_form label input, .container_product .container_product__contact .container_product__contact_form label textarea {
     min-width: 100%;
   }
+}
+@media (max-width: 450px) {
+  .container_product {
+    padding: 90px 30px;
+  }
 }/*# sourceMappingURL=styleEmp.css.map */

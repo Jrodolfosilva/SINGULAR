@@ -114,3 +114,12 @@
         width: 180px;
     }
 }
+
+@media (max-width:450px) {
+    
+
+    .linha div >ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
