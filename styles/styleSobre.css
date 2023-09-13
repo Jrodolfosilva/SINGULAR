@@ -65,6 +65,8 @@
   }
   .container_main img {
     margin-bottom: -12px;
+    width: 700px;
+    margin-left: -90px;
   }
   .container_atuacao ul > li {
     width: 300px;
