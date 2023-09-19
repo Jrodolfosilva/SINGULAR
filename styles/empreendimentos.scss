@@ -15,6 +15,7 @@ background-color:#fff!important;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        align-content: flex-start!important;
         gap: 10px;
 
 
@@ -51,7 +52,8 @@ background-color:#fff!important;
         }
     }
     .slider_property{
-        justify-content: flex-start;
+        align-content: flex-start!important;
+
        .card{
         margin-top: 10px;
        }
