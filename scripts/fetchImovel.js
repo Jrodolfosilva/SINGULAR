@@ -58,7 +58,7 @@ async function AdddetailsProperty(details, imagemImovel) {
     image_property.setAttribute('src', `${imagem}`);
     codigo_property.innerHTML = `Código do imóvel: ${codValue}`;
     address_property2.innerHTML = address
-    areaProperty.innerHTML = `${area} | ${vagas == 0 || vagas == 1 ? `${vagas} Vaga` : `${vagas} Vagas`}`;
+    areaProperty.innerHTML = `<span class="area"></span>${area} |  <span class="vaga"></span>${vagas == 0 || vagas == 1 ? `${vagas} Vaga` : `${vagas} Vagas`}`;
     map.setAttribute('src',`${mapGoogle}`);
     message.value = `Olá, gostaria de mais informações sobre o empreendimento ${title}`;
 

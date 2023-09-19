@@ -1,7 +1,7 @@
 /*
 Javascript para realização da requisição aos imóveis.
 */
-const baseurl = "https://eventosinfo.shop/wp-json/wp/v2/imovel?per_page=6";
+const baseurl = "https://eventosinfo.shop/wp-json/wp/v2/imovel?per_page=30";
 
 async function ReqImoveis() {
     let result;

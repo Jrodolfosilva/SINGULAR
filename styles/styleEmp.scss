@@ -181,3 +181,22 @@
         padding: 90px 30px;
     }
 }
+
+
+
+.area,.vaga{
+    width: 20px;
+    height: 16px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-right: 4px;
+}
+.area{
+    
+    background-image: (url("../assets/scale.svg"));
+}
+.vaga{
+    background-image: url("../assets/car-2.svg");
+}
