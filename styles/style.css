@@ -303,7 +303,7 @@ header .toggle-menu.bg-js {
   margin-bottom: 60px;
   flex: 1 1 370px;
   min-width: 268px;
-  max-width: 370px;
+  max-width: 500px;
 }
 .container_services .container_services__list .services h3 {
   color: var(--color-title);
@@ -348,7 +348,7 @@ header .toggle-menu.bg-js {
 }
 .container_property .slider_property .card {
   min-width: 300px;
-  max-width: 370px;
+  width: 500px;
   flex: 1 1 370px;
 }
 @media (max-width: 768px) {

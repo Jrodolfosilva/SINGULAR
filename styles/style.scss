@@ -387,7 +387,7 @@ header{
             margin-bottom: 60px;
             flex: 1 1 370px; 
             min-width: 268px;
-            max-width: 370px;
+            max-width: 500px;
                 h3{
                     color: var(--color-title);
                     text-align: left;
@@ -442,7 +442,7 @@ header{
 
         .card{
             min-width: 300px;
-            max-width: 370px;
+            width: 500px;
             flex: 1 1 370px
         }
     }
