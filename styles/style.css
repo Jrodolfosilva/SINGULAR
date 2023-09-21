@@ -288,6 +288,8 @@ header .toggle-menu.bg-js {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .container_services .container_services__list .image-service {
@@ -304,6 +306,7 @@ header .toggle-menu.bg-js {
   flex: 1 1 370px;
   min-width: 268px;
   max-width: 450px;
+  min-height: 500px;
 }
 .container_services .container_services__list .services h3 {
   color: var(--color-title);

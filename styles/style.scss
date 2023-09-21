@@ -370,6 +370,8 @@ header{
         display: flex;
         justify-content: space-between;
         gap: 20px;
+        align-items: flex-start;
+        justify-content: center;
         flex-wrap: wrap;
 
       
@@ -388,6 +390,7 @@ header{
             flex: 1 1 370px; 
             min-width: 268px;
             max-width: 450px;
+            min-height: 500px;
                 h3{
                     color: var(--color-title);
                     text-align: left;
