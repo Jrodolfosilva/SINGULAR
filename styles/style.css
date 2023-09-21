@@ -303,7 +303,7 @@ header .toggle-menu.bg-js {
   margin-bottom: 60px;
   flex: 1 1 370px;
   min-width: 268px;
-  max-width: 500px;
+  max-width: 450px;
 }
 .container_services .container_services__list .services h3 {
   color: var(--color-title);
@@ -345,6 +345,7 @@ header .toggle-menu.bg-js {
 }
 .container_property .slider_property {
   display: flex;
+  justify-content: center;
 }
 .container_property .slider_property .card {
   min-width: 300px;
@@ -603,14 +604,6 @@ footer section a {
   }
   footer .footer_location, footer .footer_contact {
     width: 130px;
-  }
-}
-@media (max-width: 1300px) {
-  .container_services__list {
-    justify-content: center;
-  }
-  .container_services__list .services {
-    max-width: 300px;
   }
 }
 @media (max-width: 768px) {

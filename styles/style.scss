@@ -387,7 +387,7 @@ header{
             margin-bottom: 60px;
             flex: 1 1 370px; 
             min-width: 268px;
-            max-width: 500px;
+            max-width: 450px;
                 h3{
                     color: var(--color-title);
                     text-align: left;
@@ -409,6 +409,7 @@ header{
                     }
                 }
         }
+        
     }
 
 
@@ -439,6 +440,7 @@ header{
 
     .slider_property{
         display: flex;
+        justify-content: center;
 
         .card{
             min-width: 300px;
@@ -799,16 +801,6 @@ footer{
     }
 }
 
-
-@media (max-width:1300px) {
-    .container_services__list{
-        justify-content: center;
-        .services{
-            max-width: 300px;
-        }
-    }
-    
-}
 
 @media(max-width:768px){
 
