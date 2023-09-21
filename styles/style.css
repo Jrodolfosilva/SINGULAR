@@ -344,7 +344,6 @@ header .toggle-menu.bg-js {
   background-color: var(--color-blue-background);
 }
 .container_property .slider_property {
-  background-color: red;
   display: flex;
 }
 .container_property .slider_property .card {
