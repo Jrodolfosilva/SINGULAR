@@ -369,7 +369,7 @@ header{
     .container_services__list{
         display: flex;
         justify-content: space-between;
-        gap: 30px;
+        gap: 20px;
         flex-wrap: wrap;
 
       
@@ -377,15 +377,17 @@ header{
             margin-top: -50px;
         }
         .services{
+           
             display: flex;
             flex-direction: column;
             gap: 30px;
-            width: 345px;
             border: 1px solid var(--color-orange);
             padding-left: 30px;
             padding-bottom: 30px;
             margin-bottom: 60px;
-
+            flex: 1 1 370px; 
+            min-width: 268px;
+            max-width: 370px;
                 h3{
                     color: var(--color-title);
                     text-align: left;
@@ -434,6 +436,17 @@ header{
 
     padding: 90px 130px;
     background-color: var(--color-blue-background);
+
+    .slider_property{
+        background-color: red;
+        display: flex;
+
+        .card{
+            min-width: 300px;
+            max-width: 370px;
+            flex: 1 1 370px
+        }
+    }
     
 @media (max-width:768px) {
     padding: 90px 30px;
@@ -785,6 +798,17 @@ footer{
             width: 130px;
         }
     }
+}
+
+
+@media (max-width:1300px) {
+    .container_services__list{
+        justify-content: center;
+        .services{
+            max-width: 300px;
+        }
+    }
+    
 }
 
 @media(max-width:768px){
