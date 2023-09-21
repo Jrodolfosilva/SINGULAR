@@ -393,7 +393,7 @@ header{
             flex: 1 1 370px; 
             min-width: 268px;
             max-width: 450px;
-            min-height: 500px;
+            
                 h3{
                     color: var(--color-title);
                     text-align: left;
@@ -414,6 +414,7 @@ header{
 
                     }
                 }
+               
         }
         
     }
@@ -708,7 +709,7 @@ footer{
     }
 
     section{
-        width: 320px;
+        
 
         h3{
             margin-bottom: 15px;
@@ -717,11 +718,22 @@ footer{
         a{
             color: #fff;
         }
+
+        
         
     }
+    .footer_contact,.footer_content,.footer_location{
+        margin: 0px;
+    }
+    .footer_content{
+       max-width: 400px;
+       flex: 1 1 300px;
+    }
 
+  
     @media (max-width:768px) {
         padding:90px 30px;
+        flex:1 1 0px;
     }
 }
 
@@ -845,6 +857,7 @@ footer{
 
         .footer_contact,.footer_content,.footer_location{
             width: auto;
+            flex: 1 1 0px;
         }
     }
 

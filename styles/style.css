@@ -307,7 +307,6 @@ header .toggle-menu.bg-js {
   flex: 1 1 370px;
   min-width: 268px;
   max-width: 450px;
-  min-height: 500px;
 }
 .container_services .container_services__list .services h3 {
   color: var(--color-title);
@@ -546,18 +545,23 @@ footer {
 footer img {
   width: 100px;
 }
-footer section {
-  width: 320px;
-}
 footer section h3 {
   margin-bottom: 15px;
 }
 footer section a {
   color: #fff;
 }
+footer .footer_contact, footer .footer_content, footer .footer_location {
+  margin: 0px;
+}
+footer .footer_content {
+  max-width: 400px;
+  flex: 1 1 300px;
+}
 @media (max-width: 768px) {
   footer {
     padding: 90px 30px;
+    flex: 1 1 0px;
   }
 }
 
@@ -634,6 +638,7 @@ footer section a {
   }
   footer .footer_contact, footer .footer_content, footer .footer_location {
     width: auto;
+    flex: 1 1 0px;
   }
 }
 @media (max-width: 430px) {
