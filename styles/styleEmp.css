@@ -114,6 +114,9 @@
   .container_product {
     padding: 90px 80px;
   }
+  .container_product .container_product__content {
+    min-width: 100% !important;
+  }
   .container_product .container_product__content .image_property {
     width: auto;
   }
