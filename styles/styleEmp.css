@@ -1,3 +1,7 @@
+.image_property {
+  max-width: 100%;
+}
+
 .container_product {
   padding: 130px;
   display: flex;
