@@ -200,7 +200,7 @@ header{
     overflow: hidden;
 
     img{
-        width: 850px;
+        max-width: 650px;
         margin-top: -100px;
         margin-right:-180px ;
         
@@ -222,6 +222,7 @@ header{
 .container_main__content{
     max-width: 38%;
     margin-right: 50px;
+    
 
     h1{
         font-size: 40px;
@@ -244,6 +245,8 @@ header{
         font-weight: 700;
         color: var(--color-title);
         background-color: var(--color-green);
+        margin-bottom: 20px;
+    
     }
 
 
@@ -446,7 +449,7 @@ header{
         justify-content: center;
 
         .card{
-            min-width: 300px;
+            min-width: 15rem;
             width: 500px;
             flex: 1 1 370px
         }
