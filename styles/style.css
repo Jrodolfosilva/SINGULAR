@@ -666,7 +666,8 @@ footer .footer_content {
     align-items: center;
   }
   .container_services__list .services {
-    max-width: 100%;
+    max-width: none;
+    width: 100%;
   }
   .container_services__list .services .image-service {
     width: 100%;

@@ -898,7 +898,8 @@ footer{
         align-items: center;
 
         .services{
-            max-width: 100%;
+            max-width: none;
+            width: 100%;
 
             .image-service {
                 width: 100%;
