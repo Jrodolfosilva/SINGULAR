@@ -325,6 +325,9 @@ header .toggle-menu.bg-js {
   gap: 8px;
   text-align: left;
 }
+.container_services .container_services__list .services:first-child {
+  padding-bottom: 40px;
+}
 @media (max-width: 768px) {
   .container_services {
     padding: 90px 30px;
