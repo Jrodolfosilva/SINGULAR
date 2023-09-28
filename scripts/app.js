@@ -1,7 +1,7 @@
 /*
 Javascript para realização da requisição aos imóveis.
 */
-const baseurl = "https://eventosinfo.shop/wp-json/wp/v2/imovel?per_page=6";
+const baseurl = "https://base.singularonline.com.br/wp-json/wp/v2/imovel?per_page=6";
 
 async function ReqImoveis() {
     let result;
@@ -24,7 +24,7 @@ async function createCards(result) {
 
     await Promise.all(
         result.map(async (imovel) => {
-            const imagem = await fetch(`https://eventosinfo.shop/wp-json/wp/v2/media?parent=${imovel.id}`)
+            const imagem = await fetch(`https://base.singularonline.com.br/wp-json/wp/v2/media?parent=${imovel.id}`)
                 .then((resp) => resp.json())
                 .catch((err) => console.log(err));
 
@@ -62,7 +62,7 @@ async function createCards(result) {
             hoverElement.appendChild(enderecoElement);
             hoverElement.appendChild(areaElement);
 
-            hoverElement.setAttribute('href', `/sgn/empreendimento/?cod=${imovel.id}`)
+            hoverElement.setAttribute('href', `/empreendimento/?cod=${imovel.id}`)
             cardEnterprise.appendChild(hoverElement);
             containerCard.appendChild(cardEnterprise); /*Adicionar os cards na div container */
         })

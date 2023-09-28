@@ -14,10 +14,10 @@ if (codValue !== null) {
 
 async function details(codigo) {
     try {
-        const imovel = await fetch(`https://eventosinfo.shop/wp-json/wp/v2/imovel/${codigo}`);
+        const imovel = await fetch(`https://base.singularonline.com.br/wp-json/wp/v2/imovel/${codigo}`);
         const details = await imovel.json();
 
-        const imagem = await fetch(`https://eventosinfo.shop/wp-json/wp/v2/media?parent=${codigo}`);
+        const imagem = await fetch(`https://base.singularonline.com.br/wp-json/wp/v2/media?parent=${codigo}`);
         const imagemImovel = await imagem.json();
 
         AdddetailsProperty(details, imagemImovel);
